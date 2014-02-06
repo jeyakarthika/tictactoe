@@ -97,17 +97,25 @@ body {
 /*---------------------------------------------------------------------------------
    Section Styles
 ---------------------------------------------------------------------------------*/
-
-h1 {
-    text-align: center; 
-    font-size: 4em;
+header, section, footer {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 300;
 }
 
-section p {
-	position: relative;
+header {
+	padding: 2em;
+}
+
+header p{
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
 	padding: 10px;
+}
+
+header h3 {
+	font-size: 2em;
 }
 
 #one {
